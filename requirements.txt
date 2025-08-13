@@ -1,0 +1,27 @@
+# Core Deep Learning Framework
+# We recommend installing PyTorch from the official website to match your CUDA version.
+# See: https://pytorch.org/get-started/locally/
+torch>=1.10.0
+torchvision
+
+# Computer Vision
+opencv-python-headless>=4.5
+albumentations>=1.0.0
+
+# Data Handling & Scientific Computing
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-image>=0.19.0
+
+# Medical Imaging
+nibabel>=4.0.0
+
+# Excel File Support (for pandas)
+openpyxl
+
+# Visualization
+matplotlib>=3.4.0
+seaborn
+
+# Utilities
+tqdm
